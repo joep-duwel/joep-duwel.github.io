@@ -1,30 +1,62 @@
-.magrgin1{
-    margin-top: 5px;
+body {
+    font-family: Helvetica,Tahoma;
+    background-color: #F5F5F5;
+  }
+  .parallax1 {
+    background-image: url(/img/denhaag-hollandluchtfoto-centrum-1_xgaplus.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    opacity: 0.5;
+     position: relative;
+}  
+  .page-title{
+   position: absolute;   text-align: center;
+    color: darkblue;
+    padding: 50px;
+    font-size: 100px;
+    font-family: fantasy;
+    width: 100%;
+    
+  }
+.sub-tit{
+    position: absolute;
+    text-align: center;
+    color: darkblue;
+    overflow: auto;
 }
-.magrgin2{
-    margin-top: 10px;
+.container{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+    
+  padding: 10px;
 }
-.magrgin3{
-    margin-top: 15px;
+.box{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #DCDCDC;
+    color: #F5F5F5;
+    
 }
-.magrgin4{
-    margin-top: 20px;
+.about-me{
+    grid-column-start: 8;
+  grid-column-end: 9;
 }
-.magrgin5{
-    margin-top: 25px;
+.project{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  grid-row: 9;
+  background-image: url(/img/1645614757378-HTML.jpg);
+  
 }
-.magrgin6{
-    margin-top: 30px;
-}
-.magrgin7{
-    margin-top: 35px;
-}
-.magrgin8{
-    margin-top: 40px;
-}
-.magrgin9{
-    margin-top: 45px;
-}
-.magrgin10{
-    margin-top: 50px;
+.contact{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 10;
 }
