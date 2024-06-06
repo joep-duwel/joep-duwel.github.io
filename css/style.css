@@ -4,23 +4,26 @@ body {
   }
   .parallax1 {
     background-image: url(/img/denhaag-hollandluchtfoto-centrum-1_xgaplus.jpg);
+    height: max-content;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    opacity: 0.5;
-     position: relative;
-}  
+    height: 500px;
+
+}
+
   .page-title{
-   position: absolute;   
-   text-align: center;
-    color: darkblue;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
     padding: 50px;
+    font-variant: small-caps;
+    font-size: small-caps;
     font-size: 100px;
     font-family: fantasy;
-    width: 100%;
-    
+    letter-spacing: 20px;
+    height: 500px;
   }
 .sub-tit{
     position: absolute;
@@ -30,12 +33,12 @@ body {
 }
 .container{
     display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
+    row-gap: 30px;
     
   padding: 10px;
 }
 .box{
+  position: sticky;
     width: 500px;
     height: 200px;
     border-radius: 10px;
@@ -60,7 +63,7 @@ body {
 .project{
     grid-column-start: 1;
     grid-column-end: 3;
-  grid-row: 9;
+  grid-row: 5;
   background-image: url(/img/1645614757378-HTML.jpg);
 }
 .project:hover{
@@ -78,4 +81,53 @@ border-radius: 10px
   width: 505px;
   height: 205px;
   border-radius: 10px
+}
+.skils{
+  grid-column-start: 1;
+    grid-column-end: 3;
+  grid-row: 15;
+}
+
+.who{
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 50px;
+}
+.about{
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+.quick-links {
+  color: white;
+  font-size: 20px;
+  font-weight: 20px;
+  display: inline-block;
+  min-width: 30%;
+}
+
+.quick-links ul {
+  padding: 0;
+}
+
+.quick-links li {
+  list-style: none;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.a-links:hover {
+  color: #fd5e53;
 }
