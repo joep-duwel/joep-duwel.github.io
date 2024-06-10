@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica,Tahoma;
+    background-color: #F5F5F5;
+  }
+.parallax1 {
+    background-image: url(/img/1645614757378-HTML.jpg);
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+}
+
+  .page-title{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+    height: 300px;
+  }
+  .proj{
+    margin: 30px 350px 0px 350px;
+  }

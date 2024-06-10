@@ -34,8 +34,8 @@ body {
 .container{
     display: grid;
     row-gap: 30px;
-    
-  padding: 10px;
+    background-color: rgb(212, 214, 214);
+   padding: 10px;
 }
 .box{
   position: sticky;
