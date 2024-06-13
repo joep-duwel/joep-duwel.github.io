@@ -34,7 +34,6 @@ body {
 .container{
     display: grid;
     row-gap: 30px;
-    background-color: rgb(212, 214, 214);
    padding: 10px;
 }
 .box{
@@ -44,7 +43,7 @@ body {
     border-radius: 10px;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: #DCDCDC;
+
     color: #F5F5F5;
 }
 .box:hover{
@@ -54,6 +53,7 @@ body {
 .about-me{
     grid-column-start: 8;
   grid-column-end: 9;
+  background-image: url(/img/360_F_224869519_aRaeLneqALfPNBzg0xxMZXghtvBXkfIA.jpg);
 }
   .about-me:hover{
     width: 510px;
@@ -76,6 +76,7 @@ border-radius: 10px
     grid-column-start: 8;
     grid-column-end: 9;
     grid-row-start: 10;
+    background-image: url(/img/images\ \(1\).jpg);
 }
 .contact:hover{
   width: 505px;
@@ -108,6 +109,8 @@ border-radius: 10px
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 20px;
+  width: 100%;
+  bottom: 100%;
 }
 
 .quick-links {
@@ -130,4 +133,7 @@ border-radius: 10px
 
 .a-links:hover {
   color: #fd5e53;
+}
+.bg-1{
+  background-color: #DCDCDC;
 }
